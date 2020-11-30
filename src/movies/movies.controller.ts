@@ -1,11 +1,11 @@
 import {
+  Body,
   Controller,
+  Delete,
   Get,
   Param,
-  Post,
-  Delete,
   Patch,
-  Body,
+  Post,
 } from '@nestjs/common';
 import { MoviesService } from './movies.service';
 import { Movie } from './entities/movie.entity';
